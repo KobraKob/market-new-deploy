@@ -13,7 +13,7 @@ const Auth: React.FC<AuthProps> = ({ onLoginSuccess, initialMode }) => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
-  const BACKEND_URL = "http://localhost:8000";
+  const BACKEND_URL = "https://marketcrewe-v1-backend-production.up.railway.app/";
 
   useEffect(() => {
     setIsRegistering(initialMode === 'signup');
