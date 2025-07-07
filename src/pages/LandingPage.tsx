@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://marketcrewe-v1-backend-production.up.railway.app/";
 
 const LandingPage: React.FC = () => {
   const navigate = useNavigate();
